@@ -1,0 +1,41 @@
+Client Side development(Angular,React,Ember,Vue,JS....)
+
+Development
+
+		--Latest and advanced scripting technology(typescript,es6,JSX)
+		--vast set of supported libraries
+		--unit testing tools
+		--linting tools( to check the quality of code)
+		--minifying tools (to remove spaces,newlines in the code)
+		--saa/less code(dont run in browser)
+-----------------------		
+		
+		SPA--Single Page Application
+100's of functionalities concentrated in single html page.
+
+Maintaining JS Code is difficult
+-------------------------------
+-------------------------------		
+transition
+
+
+Transpilation-process of converting one version of js to other(ES5).
+(Babel-F/W used for converting one js version to another)
+
+Developed code is different from deployed code
+
+Bundling -- Bundling tool walks through to the code from an entry point ...It utilizes a transpiler(babel)
+converts the code to target version(ES5)....it walk multiple js files (source) and libraries link only neccessary
+ code and skips the code that is never part of your project...
+ it converts css specification in js code..all files are bundled into a single file(sum times two or more)...
+ bundles also minifies your code and removes unit test code..any code which configure to be skipped.
+ 
+ grunt,gulp-- were the task running frameworks and libraries where we do this task.
+ 
+ webpack--automates this undling task with no code only configuration.(angular uses internally)...
+ 
+ 
+
+Production
+
+html + (minified js without unneccessaary code)
